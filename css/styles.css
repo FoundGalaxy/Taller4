@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;;
+}
+
+body{
+    background: #F7E7AC;
+}
+
+header{
+    height: 100px;
+    background: #3856FC;
+}
+
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 120px;
+    margin-top: 10px;
+
+}
+
+.menu nav ul{
+    display: flex;
+    margin-top: 10px;
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+
+.menu nav ul li a{
+    font-size: 38px;
+    text-decoration: none;
+    color: white;
+    transition: opacity 300ms;
+    padding-left: 180px;
+}
+
+.menu nav ul li a:hover{
+    opacity: 0.6;
+    margin-top: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+
+/* Banner  */
+
+.container__banner{
+    margin-top: 180px;
+}
+
+.banner{
+    height: 320px;
+    display: flex;
+    align-items: center;
+    background: #F7E7AC;
+    position: relative;
+}
+
+.banner__icon-heart{
+    width: 25%;
+    height: 100%;
+}
+
+#icon__heart{
+    width: 440px;
+    margin-top: -10px;
+    position: relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0,5));
+}
+
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #F7E7AC;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0,1);
+}
+h1{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.2rem;
+}
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid white;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #F9F1D4;
+}
+button{
+    font-size: 1rem;
+    margin-top: 1.8 rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+    background: #D1A91A;
+}
+button:hover{
+    background: grey;
+}
+input:focus{
+    border: 1px solid rgb(192,192,192);
+}
+.terms{
+    margin-top: 0.2rem;
+}
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+}
+.terms a{
+    color: black;
+    text-decoration: none;
+}
+.usuario{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: grey;
+}
+.usuario a{
+    color: black;
+    text-decoration: none;
+}
+.recuperacion{
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recuperacion a{
+    text-decoration: none;
+    color: grey;
+}
